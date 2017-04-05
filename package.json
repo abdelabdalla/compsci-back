@@ -1,0 +1,38 @@
+{
+  "name": "swype",
+  "version": "1.0.0",
+  "description": "Backend for the Swype project",
+  "main": "index.js",
+  "dependencies": {
+    "argon2": "0.15.0",
+    "body-parser": "1.17.1",
+    "codacy-coverage": "2.0.1",
+    "express": "5.0.0-alpha.5",
+    "mocha": "3.2.0",
+    "mocha-lcov-reporter": "1.3.0",
+    "pg": "6.1.5",
+    "pug": "2.0.0-beta11",
+    "regex": "0.1.1",
+    "request": "2.81.0",
+    "serve-favicon": "2.4.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdelabdalla/swype.git"
+  },
+  "keywords": [
+    "Swype"
+  ],
+  "author": "Abdel-Rahim Abdalla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdelabdalla/swype/issues"
+  },
+  "homepage": "https://swype.herokuapp.com",
+  "devDependencies": {
+    "mocha": "3.2.0"
+  }
+}

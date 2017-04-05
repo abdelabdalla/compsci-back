@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+}
+
+.head {
+    position: absolute;
+    top: 25%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.title {
+    color: gray;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 5em;
+}
+
+.sub {
+    color: black;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 1.1em;
+}
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+.download {
+    position: absolute;
+    top: 66%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.os {
+    width: 200px;
+    display: inline-block;
+}
